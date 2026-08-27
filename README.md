@@ -1,55 +1,78 @@
-🚗 Web Scraping de Carros
+# 🚗 Web Scraping de Carros
 
-Projeto de web scraping em Python desenvolvido para praticar a extração de informações de páginas HTML utilizando Requests e BeautifulSoup.
+Projeto de **web scraping em Python** desenvolvido para praticar a extração de informações de páginas HTML utilizando `Requests` e `BeautifulSoup`.
 
-O programa permite escolher uma página do site de testes do Web Scraper, extrair os dados dos carros disponíveis e armazená-los em um arquivo .csv.
+O programa permite escolher uma página do site de testes do Web Scraper, extrair os dados dos carros disponíveis e armazená-los em um arquivo `.csv`.
 
-🛠️ Tecnologias utilizadas
-Python
-Requests
-BeautifulSoup4
-CSV
-📋 Dados coletados
+## 🛠️ Tecnologias utilizadas
+
+* Python
+* Requests
+* BeautifulSoup4
+* CSV
+
+## 📋 Dados coletados
 
 Para cada carro, o programa coleta:
 
-Nome
-Descrição
-Ano
-Disponibilidade
-🚀 Como executar
-1. Clone o repositório
+* Nome
+* Descrição
+* Ano
+* Disponibilidade
+
+## 🚀 Como executar
+
+### 1. Clone o repositório
+
+```bash
 git clone <URL_DO_REPOSITORIO>
 cd <NOME_DO_REPOSITORIO>
-2. Instale as dependências
+```
+
+### 2. Instale as dependências
+
+```bash
 pip install requests beautifulsoup4
-3. Execute o programa
+```
+
+### 3. Execute o programa
+
+```bash
 python main.py
+```
 
 O programa solicitará o número da página que você deseja consultar.
 
+```text
 Qual página você quer ler?: 5
+```
 
 Os dados encontrados serão exibidos no terminal e salvos em um arquivo CSV correspondente à página escolhida.
 
-📁 Estrutura do projeto
+## 📁 Estrutura do projeto
+
+```text
 .
 ├── main.py
 ├── scraper.py
 ├── carros_pagina*.csv
 ├── .gitignore
 └── README.md
-🎯 Objetivo
+```
+
+## 🎯 Objetivo
 
 Este projeto foi desenvolvido como prática de:
 
-Requisições HTTP com Python
-Parsing de HTML
-Localização de elementos com BeautifulSoup
-Extração de dados
-Manipulação de arquivos CSV
-Organização de código em módulos
-Uso do Git e GitHub
-📌 Observação
+* Requisições HTTP com Python
+* Parsing de HTML
+* Localização de elementos com BeautifulSoup
+* Extração de dados
+* Manipulação de arquivos CSV
+* Organização de código em módulos
+* Uso do Git e GitHub
 
-Este projeto utiliza o site de testes Web Scraper como fonte dos dados e possui finalidade educacional.
+## 📌 Observação
+
+Este projeto utiliza o site de testes **Web Scraper** como fonte dos dados e possui finalidade educacional.
+
