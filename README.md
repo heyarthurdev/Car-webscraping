@@ -9,16 +9,14 @@ Python
 Requests
 BeautifulSoup4
 CSV
-Matplotlib
-
 📋 Dados coletados
+
 Para cada carro, o programa coleta:
 
 Nome
 Descrição
 Ano
 Disponibilidade
-
 🚀 Como executar
 1. Clone o repositório
 git clone <URL_DO_REPOSITORIO>
